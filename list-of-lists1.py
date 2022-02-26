@@ -16,4 +16,4 @@ print(age)
 
 # for with temporary variable
 for client in client_list:
-    print(f"Name: {client[0]} Age: {client[1]}")
+    print("Name: ", {client[0]}, " Age: ", {client[1]})
